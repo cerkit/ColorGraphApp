@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B6C4E932E35A318001634A8 /* MQTTNIO in Frameworks */ = {isa = PBXBuildFile; productRef = 6B6C4E922E35A318001634A8 /* MQTTNIO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B6C4E6D2E35A288001634A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B6C4E562E35A287001634A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B6C4E5D2E35A287001634A8;
+			remoteInfo = ColorGraphApp;
+		};
+		6B6C4E772E35A288001634A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B6C4E562E35A287001634A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B6C4E5D2E35A287001634A8;
+			remoteInfo = ColorGraphApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B6C4E5E2E35A287001634A8 /* ColorGraphApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGraphApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6C4E6C2E35A288001634A8 /* ColorGraphAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGraphAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6C4E762E35A288001634A8 /* ColorGraphAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGraphAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6B6C4E9A2E35AA19001634A8 /* Exceptions for "ColorGraphApp" folder in "ColorGraphAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ColorDataPoint.swift,
+			);
+			target = 6B6C4E6B2E35A288001634A8 /* ColorGraphAppTests */;
+		};
+		6B6C4E9B2E35AA19001634A8 /* Exceptions for "ColorGraphApp" folder in "ColorGraphAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ColorDataPoint.swift,
+			);
+			target = 6B6C4E752E35A288001634A8 /* ColorGraphAppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B6C4E602E35A287001634A8 /* ColorGraphApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6B6C4E9A2E35AA19001634A8 /* Exceptions for "ColorGraphApp" folder in "ColorGraphAppTests" target */,
+				6B6C4E9B2E35AA19001634A8 /* Exceptions for "ColorGraphApp" folder in "ColorGraphAppUITests" target */,
+			);
+			path = ColorGraphApp;
+			sourceTree = "<group>";
+		};
+		6B6C4E6F2E35A288001634A8 /* ColorGraphAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ColorGraphAppTests;
+			sourceTree = "<group>";
+		};
+		6B6C4E792E35A288001634A8 /* ColorGraphAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ColorGraphAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B6C4E5B2E35A287001634A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6C4E932E35A318001634A8 /* MQTTNIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6C4E692E35A288001634A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6C4E732E35A288001634A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B6C4E552E35A287001634A8 = {
+			isa = PBXGroup;
+			children = (
+				6B6C4E602E35A287001634A8 /* ColorGraphApp */,
+				6B6C4E6F2E35A288001634A8 /* ColorGraphAppTests */,
+				6B6C4E792E35A288001634A8 /* ColorGraphAppUITests */,
+				6B6C4E5F2E35A287001634A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B6C4E5F2E35A287001634A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C4E5E2E35A287001634A8 /* ColorGraphApp.app */,
+				6B6C4E6C2E35A288001634A8 /* ColorGraphAppTests.xctest */,
+				6B6C4E762E35A288001634A8 /* ColorGraphAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B6C4E5D2E35A287001634A8 /* ColorGraphApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6C4E802E35A288001634A8 /* Build configuration list for PBXNativeTarget "ColorGraphApp" */;
+			buildPhases = (
+				6B6C4E5A2E35A287001634A8 /* Sources */,
+				6B6C4E5B2E35A287001634A8 /* Frameworks */,
+				6B6C4E5C2E35A287001634A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6B6C4E602E35A287001634A8 /* ColorGraphApp */,
+			);
+			name = ColorGraphApp;
+			packageProductDependencies = (
+				6B6C4E922E35A318001634A8 /* MQTTNIO */,
+			);
+			productName = ColorGraphApp;
+			productReference = 6B6C4E5E2E35A287001634A8 /* ColorGraphApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B6C4E6B2E35A288001634A8 /* ColorGraphAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6C4E832E35A288001634A8 /* Build configuration list for PBXNativeTarget "ColorGraphAppTests" */;
+			buildPhases = (
+				6B6C4E682E35A288001634A8 /* Sources */,
+				6B6C4E692E35A288001634A8 /* Frameworks */,
+				6B6C4E6A2E35A288001634A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6C4E6E2E35A288001634A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B6C4E6F2E35A288001634A8 /* ColorGraphAppTests */,
+			);
+			name = ColorGraphAppTests;
+			packageProductDependencies = (
+			);
+			productName = ColorGraphAppTests;
+			productReference = 6B6C4E6C2E35A288001634A8 /* ColorGraphAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B6C4E752E35A288001634A8 /* ColorGraphAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6C4E862E35A288001634A8 /* Build configuration list for PBXNativeTarget "ColorGraphAppUITests" */;
+			buildPhases = (
+				6B6C4E722E35A288001634A8 /* Sources */,
+				6B6C4E732E35A288001634A8 /* Frameworks */,
+				6B6C4E742E35A288001634A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6C4E782E35A288001634A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B6C4E792E35A288001634A8 /* ColorGraphAppUITests */,
+			);
+			name = ColorGraphAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ColorGraphAppUITests;
+			productReference = 6B6C4E762E35A288001634A8 /* ColorGraphAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B6C4E562E35A287001634A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					6B6C4E5D2E35A287001634A8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					6B6C4E6B2E35A288001634A8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6B6C4E5D2E35A287001634A8;
+					};
+					6B6C4E752E35A288001634A8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6B6C4E5D2E35A287001634A8;
+					};
+				};
+			};
+			buildConfigurationList = 6B6C4E592E35A287001634A8 /* Build configuration list for PBXProject "ColorGraphApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B6C4E552E35A287001634A8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6B6C4E912E35A318001634A8 /* XCRemoteSwiftPackageReference "mqtt-nio" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B6C4E5F2E35A287001634A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B6C4E5D2E35A287001634A8 /* ColorGraphApp */,
+				6B6C4E6B2E35A288001634A8 /* ColorGraphAppTests */,
+				6B6C4E752E35A288001634A8 /* ColorGraphAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B6C4E5C2E35A287001634A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6C4E6A2E35A288001634A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6C4E742E35A288001634A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B6C4E5A2E35A287001634A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6C4E682E35A288001634A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6C4E722E35A288001634A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B6C4E6E2E35A288001634A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B6C4E5D2E35A287001634A8 /* ColorGraphApp */;
+			targetProxy = 6B6C4E6D2E35A288001634A8 /* PBXContainerItemProxy */;
+		};
+		6B6C4E782E35A288001634A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B6C4E5D2E35A287001634A8 /* ColorGraphApp */;
+			targetProxy = 6B6C4E772E35A288001634A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B6C4E7E2E35A288001634A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B6C4E7F2E35A288001634A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6B6C4E812E35A288001634A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ColorGraphApp/ColorGraphApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerkit.color.graph.ColorGraphApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B6C4E822E35A288001634A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ColorGraphApp/ColorGraphApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerkit.color.graph.ColorGraphApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6B6C4E842E35A288001634A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerkit.color.graph.ColorGraphAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGraphApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorGraphApp";
+			};
+			name = Debug;
+		};
+		6B6C4E852E35A288001634A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerkit.color.graph.ColorGraphAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGraphApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorGraphApp";
+			};
+			name = Release;
+		};
+		6B6C4E872E35A288001634A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerkit.color.graph.ColorGraphAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ColorGraphApp;
+			};
+			name = Debug;
+		};
+		6B6C4E882E35A288001634A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerkit.color.graph.ColorGraphAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ColorGraphApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B6C4E592E35A287001634A8 /* Build configuration list for PBXProject "ColorGraphApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6C4E7E2E35A288001634A8 /* Debug */,
+				6B6C4E7F2E35A288001634A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6C4E802E35A288001634A8 /* Build configuration list for PBXNativeTarget "ColorGraphApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6C4E812E35A288001634A8 /* Debug */,
+				6B6C4E822E35A288001634A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6C4E832E35A288001634A8 /* Build configuration list for PBXNativeTarget "ColorGraphAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6C4E842E35A288001634A8 /* Debug */,
+				6B6C4E852E35A288001634A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6C4E862E35A288001634A8 /* Build configuration list for PBXNativeTarget "ColorGraphAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6C4E872E35A288001634A8 /* Debug */,
+				6B6C4E882E35A288001634A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B6C4E912E35A318001634A8 /* XCRemoteSwiftPackageReference "mqtt-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adam-fowler/mqtt-nio";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B6C4E922E35A318001634A8 /* MQTTNIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B6C4E912E35A318001634A8 /* XCRemoteSwiftPackageReference "mqtt-nio" */;
+			productName = MQTTNIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6B6C4E562E35A287001634A8 /* Project object */;
+}
