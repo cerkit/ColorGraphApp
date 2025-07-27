@@ -18,7 +18,7 @@ class MQTTService: ObservableObject {
         decoder.dateDecodingStrategy = .iso8601
 
         let client = MQTTClient(
-            host: "192.168.4.60",
+            host: "raspberrypi.local",
             port: 1883,
             identifier: "ColorGraphApp-\(UUID().uuidString.prefix(8))",
             //identifier: "macOS-ClimateMonitor",
