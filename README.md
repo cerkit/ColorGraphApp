@@ -50,7 +50,7 @@ This README describes how to set up and run the Live Color Data SwiftUI chart ap
 - **Broker settings**: In `MQTTService.connect()`, edit:
   ```swift
   let client = MQTTClient(
-      host: "192.168.4.60",
+      host: "raspberrypi.local",
       port: 1883,
       identifier: "YourClientID",
       eventLoopGroupProvider: .createNew
