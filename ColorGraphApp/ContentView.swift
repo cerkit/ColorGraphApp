@@ -54,6 +54,7 @@ struct ContentView: View {
         .chartXScale(domain: start...end)
         .frame(height: 300)
         .padding()
+        
       }
     }
     .padding()

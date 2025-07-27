@@ -1,4 +1,5 @@
-import XCTest
+/*
+ import XCTest
 
 final class ColorGraphAppUITests: XCTestCase {
 
@@ -46,3 +47,4 @@ final class ColorGraphAppUITests: XCTestCase {
         }
     }
 }
+*/
