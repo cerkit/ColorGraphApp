@@ -3,7 +3,7 @@
 
 This README describes how to set up and run the Live Color Data SwiftUI chart application in Xcode.
 
-[![Screenshot](https://github.com/cerkit/ColorGraphApp/blob/main/Screenshot.png?raw=true)]
+![Screenshot](https://github.com/cerkit/ColorGraphApp/blob/main/Screenshot.png?raw=true)
 
 ## Requirements
 
