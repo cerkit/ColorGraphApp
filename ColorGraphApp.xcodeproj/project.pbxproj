@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6B6C4E932E35A318001634A8 /* MQTTNIO in Frameworks */ = {isa = PBXBuildFile; productRef = 6B6C4E922E35A318001634A8 /* MQTTNIO */; };
+		6B6C4EB52E35C20A001634A8 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C4EB42E35C20A001634A8 /* Screenshot.png */; };
+		6B6C4EB62E35C20A001634A8 /* CODE_OF_CONDUCT.md in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C4EB12E35C20A001634A8 /* CODE_OF_CONDUCT.md */; };
+		6B6C4EB82E35C20A001634A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C4EB32E35C20A001634A8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,9 @@
 		6B6C4E5E2E35A287001634A8 /* ColorGraphApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGraphApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6C4E6C2E35A288001634A8 /* ColorGraphAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGraphAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6C4E762E35A288001634A8 /* ColorGraphAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGraphAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6C4EB12E35C20A001634A8 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		6B6C4EB32E35C20A001634A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B6C4EB42E35C20A001634A8 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -101,6 +107,9 @@
 		6B6C4E552E35A287001634A8 = {
 			isa = PBXGroup;
 			children = (
+				6B6C4EB12E35C20A001634A8 /* CODE_OF_CONDUCT.md */,
+				6B6C4EB32E35C20A001634A8 /* README.md */,
+				6B6C4EB42E35C20A001634A8 /* Screenshot.png */,
 				6B6C4E602E35A287001634A8 /* ColorGraphApp */,
 				6B6C4E6F2E35A288001634A8 /* ColorGraphAppTests */,
 				6B6C4E792E35A288001634A8 /* ColorGraphAppUITests */,
@@ -242,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6C4EB52E35C20A001634A8 /* Screenshot.png in Resources */,
+				6B6C4EB62E35C20A001634A8 /* CODE_OF_CONDUCT.md in Resources */,
+				6B6C4EB82E35C20A001634A8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
